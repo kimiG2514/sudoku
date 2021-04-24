@@ -9,6 +9,7 @@ Authors: Kimberly Gonzales
 import os
 import platform
 import sys
+import timeit
 
 import naive_backtracking
 import smart_backtracking
@@ -67,10 +68,13 @@ def Main():
     result = None
     #return solved puzzle if solvable
     if option == 1:
+        start = timeit.default_timer()
         result = naive_backtracking.search(board)
+        print(" Execution time: ", timeit.default_timer() - start)
     elif option == 2:
+        start = timeit.default_timer()
         result = smart_backtracking.search(board)
-
+        print(" Execution time: ", timeit.default_timer() - start)
 
     if result is None:
         print("No solution")
