@@ -11,11 +11,13 @@ This is a programing assignment for Backtracking Algorithms: Naive Backtracking 
 
 The assigned problem is a sudoku puzzle. The goal is to finish a partitially filled a 9×9 grid with digits from 1 to 9 so that each row, column, and 3×3 section contain exactly one of all 9 digits.
 
+
 ### Contents ###
 
 -Alorithms: main.py, backtrack.py, naive_backtracking.py, smart_backtracking.py
 
 -Puzzles: puzzle.txt (provided in assignment), puzzle_easy.txt, puzzle_medium.txt, puzzle_hard.txt, puzzle_evil.txt (provided by http://www.websodoku.com)
+
 
 ### Instructions ###
 -Ensure contents of package are saved in a single file location 
@@ -24,12 +26,15 @@ The assigned problem is a sudoku puzzle. The goal is to finish a partitially fil
 
 -User will be prompted to choose Naive Backtracking or Smart Backtracking: for Naive Backtracking, enter '1', for Smart Backtracking, enter '2'
 
+
 ### Program Excecution ###
 
 The naïve backtracking algorithm iterates through the board, trying all possible combinations of the digits one by one until the correct configuration is found.  
 The smart backtracking algorithm method reduces the number of nodes explored by determining a reduced search domain comprised of options with the least number of constraints.
 
+
 ### Output Analysis ###
+
 
 #### Given puzzle ####
 
@@ -97,6 +102,7 @@ Execution time:  0.003964999999999996
 
 Execution time:  0.03209620000000002
 
+
 #### Easy Puzzle ####
 
 puzzle_easy.txt 
@@ -162,6 +168,7 @@ Execution time:  0.003793399999999947
 [5, 8, 1, 7, 4, 3, 2, 6, 9]
 
 Execution time:  0.027835499999999902
+
 
 #### Medium Puzzle ####
 
@@ -229,6 +236,7 @@ Execution time:  0.012351800000000024
 
 Execution time:  0.03247800000000001
 
+
 #### Hard Puzzle ####
 
 puzzle_hard.txt 
@@ -277,6 +285,7 @@ Execution time:  0.12069890000000005
 
 Unable to solve using smart backtracking
 
+
 #### Evil Puzzle ####
 
 puzzle_evil.txt 
@@ -324,6 +333,7 @@ Execution time:  7.284059600000001
 ***Smart Backtracking:***
 
 Unable to solve using smart backtracking
+
 
 ***Conclusion:***
 
