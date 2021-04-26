@@ -53,7 +53,8 @@ puzzle.txt
 
 [0, 0, 5, 0, 1, 0, 3, 0, 0]
 
-Naive Backtracking solution:
+***Naive Backtracking solution: ***
+
 [4, 8, 3, 9, 2, 1, 6, 5, 7]
 
 [9, 6, 7, 3, 4, 5, 8, 2, 1]
@@ -74,7 +75,7 @@ Naive Backtracking solution:
 
 Execution time:  0.003964999999999996
 
-Smart Backtracking solution:
+***Smart Backtracking solution:***
 
 [4, 8, 3, 9, 2, 1, 6, 5, 7]
 
@@ -118,7 +119,7 @@ puzzle_easy.txt
 
 [0, 0, 0, 0, 0, 3, 2, 0, 9]
 
-Naive Backtracking:
+***Naive Backtracking:***
 
 [7, 1, 6, 8, 3, 5, 9, 4, 2]
 
@@ -140,7 +141,8 @@ Naive Backtracking:
 
 Execution time:  0.003793399999999947
 
-Smart Backtracking:
+***Smart Backtracking:***
+
 [7, 1, 6, 8, 3, 5, 9, 4, 2]
 
 [2, 4, 8, 1, 9, 7, 6, 3, 5]
@@ -183,8 +185,7 @@ puzzle_medium.txt
 
 [7, 0, 9, 0, 3, 0, 0, 6, 1]
 
-
-Naive Backtracking:
+***Naive Backtracking:***
 
 [4, 2, 5, 3, 9, 6, 7, 1, 8]
 
@@ -206,7 +207,7 @@ Naive Backtracking:
 
 Execution time:  0.012351800000000024
 
-Smart Backtracking:
+***Smart Backtracking:***
 
 [4, 2, 5, 3, 9, 6, 7, 1, 8]
 
@@ -250,7 +251,7 @@ puzzle_hard.txt
 
 [0, 6, 0, 0, 0, 1, 0, 0, 0]
 
-Naive Backtracking:
+***Naive Backtracking:***
 
 [4, 3, 5, 8, 2, 7, 9, 6, 1]
 
@@ -272,7 +273,7 @@ Naive Backtracking:
 
 Execution time:  0.12069890000000005
 
-Smart Backtracking:
+***Smart Backtracking:***
 
 Unable to solve using smart backtracking
 
@@ -298,7 +299,7 @@ puzzle_evil.txt
 
 [0, 0, 1, 0, 0, 0, 0, 0, 0]
 
-Naive Backtracking:
+***Naive Backtracking:***
 
 [9, 3, 8, 6, 5, 1, 4, 7, 2]
 
@@ -320,8 +321,10 @@ Naive Backtracking:
 
 Execution time:  7.284059600000001
 
-Smart Backtracking:
+***Smart Backtracking:***
 
 Unable to solve using smart backtracking
+
+***Conclusion:***
 
 The execution times increased as the difficulty of the puzzles increased. The naïve algorithm was consistently faster than the smart method for the puzzles we tried. The smart backtracking algorithm was not able to solve the more complex puzzles.
