@@ -102,6 +102,7 @@ Execution time:  0.003964999999999996
 
 Execution time:  0.03209620000000002
 
+-----------------------------------------------
 
 #### Easy Puzzle ####
 
@@ -169,6 +170,7 @@ Execution time:  0.003793399999999947
 
 Execution time:  0.027835499999999902
 
+-----------------------------------------------
 
 #### Medium Puzzle ####
 
@@ -236,6 +238,7 @@ Execution time:  0.012351800000000024
 
 Execution time:  0.03247800000000001
 
+-----------------------------------------------
 
 #### Hard Puzzle ####
 
@@ -285,6 +288,7 @@ Execution time:  0.12069890000000005
 
 Unable to solve using smart backtracking
 
+-----------------------------------------------
 
 #### Evil Puzzle ####
 
@@ -334,6 +338,7 @@ Execution time:  7.284059600000001
 
 Unable to solve using smart backtracking
 
+-----------------------------------------------
 
 ***Conclusion:***
 
